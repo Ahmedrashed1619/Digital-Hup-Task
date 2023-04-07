@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Digital-Hup-Task/static/css/main.8ce11463.css",
+    "main.js": "/Digital-Hup-Task/static/js/main.fcfd432c.js",
+    "static/media/h.jpg": "/Digital-Hup-Task/static/media/h.8792c31dc9e40b3eb3a2.jpg",
+    "static/media/OIP.jfif": "/Digital-Hup-Task/static/media/OIP.901478821e01175b7bb6.jfif",
+    "index.html": "/Digital-Hup-Task/index.html",
+    "main.8ce11463.css.map": "/Digital-Hup-Task/static/css/main.8ce11463.css.map",
+    "main.fcfd432c.js.map": "/Digital-Hup-Task/static/js/main.fcfd432c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ce11463.css",
+    "static/js/main.fcfd432c.js"
+  ]
+}
