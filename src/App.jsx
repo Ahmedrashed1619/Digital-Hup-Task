@@ -46,13 +46,22 @@ function App() {
       clearTimeout(timeOut)
     }
   }, [])
+
+
+  // for close sidebar when click on Anything else icon toggle 
+  
+  const handelClose = () => {
+    if(isOpen && isWidth) {
+      setIsOpen(false);
+    }
+  }
   
 
 
   return (
       <div className='app d-flex'>
         <Sidebar isOpen={isOpen} isWidth={isWidth} />
-        <div className='main-view' style={{right: isWidth ? '0px' : '280px' , width: isWidth ? '100%' : 'calc(100% - 280px)'}}>
+        <div className='main-view' style={{right: isWidth ? '0px' : '280px' , width: isWidth ? '100%' : 'calc(100% - 280px)'}} onClick={handelClose}>
           <Navbar />
           <Data isOpen={isOpen} handelClick={handelClick} isWidth={isWidth} />
         </div>
