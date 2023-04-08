@@ -7,13 +7,13 @@ function Navbar() {
     return (
         <>
             <nav>
-                <h2>الرئيسية</h2>
+                <h2 className='text-black'>الرئيسية</h2>
                 <div className="d-flex justify-content-center align-items-center">
                     <div className="group-search">
                         <FiSearch />
-                        <input type="search" className='form-control py-3' placeholder='إستعلام عن حالة مواليد أو وفاة' />
+                        <input type="search" className='form-control' placeholder='إستعلام عن حالة مواليد أو وفاة' />
                     </div>
-                    <img src={gear} style={{width: '80px' , height: '50px'}} alt="gear" />
+                    <img src={gear} alt="gear" />
                 </div>
             </nav>
         </>

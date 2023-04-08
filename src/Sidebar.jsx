@@ -4,7 +4,7 @@ import health from './images/h.jpg';
 import { IoIosArrowUp } from 'react-icons/io';
 import $ from 'jquery';
 
-function Sidebar() {
+function Sidebar({ isOpen , isWidth }) {
 
     // for handel switch between accordions
 
@@ -27,7 +27,11 @@ function Sidebar() {
 
     return (
         <>
-            <aside className='p-4'>
+            <aside className='p-4' style={{right: 
+                isOpen && !isWidth ? '0px' : 
+                isOpen && isWidth ? '0px' : 
+                !isOpen && isWidth ? '-280px' : 
+                !isOpen && !isWidth ? '0px' : '-280px'}}>
                 <div className="logos mb-4 d-flex justify-content-between align-items-center gap-4">
                     <img src={health} className='first-img' style={{width: '90px' , height: '75px'}} alt="health" />
                     <img src={da5lya} style={{width: '90px' , height: '75px'}} alt="da5lya" />

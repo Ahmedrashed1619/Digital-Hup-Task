@@ -9,11 +9,6 @@
     --transparent: transparent;
     --input: #eee;
     --body: #cccccc30;
-    /* --alert: #eaeaea; */
-    --alert: rgb(240,240,240);
-    --firstBoxShadow: 0px 4px 6px rgba(147, 147, 147, 0.26);
-    --secondBoxShadow: 0px 4px 6px rgba(147, 147, 147, 0.5);
-    --thirdBoxShadow: 0px 4px 6px rgba(147, 147, 147, 0.75);
 }
 
 
@@ -21,6 +16,10 @@ body {
     font-family: 'Cairo', sans-serif;
     background-color: var(--body) !important;
 }
+
+/* section {
+    overflow-x: hidden !important;
+} */
 
 aside {
     background-color: var(--white);
@@ -32,19 +31,21 @@ aside {
     top: 0;
     right: 0;
     overflow-y: auto;
+    z-index: 999999999999;
+    transition: all 0.5s;
 }
 
 ::-webkit-scrollbar {
-    width: 0.5rem;
+    width: 0.6rem;
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: var(--secondColor) !important;
+    background-color: var(--thirdColor) !important;
     border-radius: 40px !important;
   }
   
   ::-webkit-scrollbar-track {
-    background-color: #cccccc80 !important;
+    background-color: var(--secondColor) !important;
     border-radius: 20px !important;
   }
 
@@ -145,7 +146,25 @@ aside .menu .accordion .accordion-item .accordion-body h6 {
     right: 280px;
     display: flex;
     flex-direction: column;
+    transition: all 0.5s;
 }
+
+
+@media screen and (max-width: 768px) {
+    aside {
+        right: -280px;
+    }
+
+    .main-view {
+        width: 100%;
+        right: 0px;
+    }
+
+    nav h2 {
+        padding-right: 15px;
+    }
+}
+
 
 nav {
     background-color: var(--white);
@@ -184,6 +203,8 @@ nav .group-search input {
     background-color: var(--transparent);
     border-radius: 20px;
     padding-right: 50px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 nav .group-search input::placeholder {
@@ -191,15 +212,77 @@ nav .group-search input::placeholder {
     opacity: 0.7;
 }
 
-@media screen and (max-width: 850px) {
+nav img {
+    width: 80px;
+    height: 50px;
+}
+
+@media screen and (max-width: 890px) {
     nav .group-search {
-        width: 285px;
+        width: 270px;
         margin-left: 10px;
         margin-right: 10px;
     }
 
     nav .group-search input::placeholder {
         font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    nav .group-search {
+        width: 250px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    nav h2 {
+        font-size: 30px;
+    }
+
+    nav .group-search svg {
+        font-size: 16px;
+        right: 10px;
+    }
+
+    nav .group-search input {
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    nav img {
+        width: 60px;
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 470px) {
+    nav .group-search {
+        width: 200px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    nav h2 {
+        font-size: 24px;
+    }
+
+    nav .group-search input {
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    nav .group-search input::placeholder {
+        font-size: 11px;
+    }
+
+    nav img {
+        width: 45px;
+        height: 35px;
     }
 }
 
@@ -221,6 +304,10 @@ nav .group-search input.form-control:focus {
     box-shadow: none !important;
 }
 
+.rs-picker-toggle-placeholder {
+    color: var(--black) !important;
+}
+
 .rs-picker-default .rs-picker-toggle {
     position: relative !important;
     z-index: 5 !important;
@@ -229,7 +316,7 @@ nav .group-search input.form-control:focus {
     cursor: pointer !important;
     color: #575757 !important;
     border: 1px solid #e5e5ea !important;
-    padding-left: 40px !important;
+    padding-left: 60px !important;
     padding-right:60px !important;
 }
 
@@ -254,12 +341,23 @@ nav .group-search input.form-control:focus {
     border-radius: 25px !important;
     color: var(--white) !important;
     background-color: #3498ff !important;
-    width: 100px !important;
+    width: 50px !important;
 }
 
 .rs-calendar-table-cell-content {
     border-radius: 50% !important;
 }
+
+.rs-stack-item input::placeholder , .rs-stack-item span::placeholder {
+    color: var(--black) !important;
+}
+
+
+/* @media screen and (max-width: 576px) {
+    .rs-picker-menu {
+        width: 75% !important;
+    }
+} */
 
 
 .tabs {
@@ -292,6 +390,7 @@ nav .group-search input.form-control:focus {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    color: var(--black);
 }
 
 .tabs h6.all {
@@ -307,7 +406,8 @@ nav .group-search input.form-control:focus {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: var(--secondColor);
+    /* background-color: var(--secondColor); */
+    background-color: #606060;
 }
 
 .tabs h6.auth {
@@ -344,4 +444,98 @@ nav .group-search input.form-control:focus {
 
 .tab-active {
     background-color: #0099cc30;
+}
+
+.count , .birth , .death {
+    border: 1px solid #cccccc90;
+}
+
+.birth , .death {
+    width: 95% !important;
+}
+
+.spec-before {
+    position: relative;
+}
+
+.spec-before::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 1.5px;
+    height: 75%;
+    background-color: var(--secondColor);
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 992px) {
+    .spec-before::before {
+        display: none;
+    }
+
+    .birth , .death {
+        width: 100% !important;
+    }
+}
+
+
+.birth svg #Path_2276 {
+    fill: #EB4F9C !important;
+}
+
+.birth svg #Path_2278 {
+    fill: blue !important;
+}
+
+.death svg #Path_2275 {
+    fill: #606060 !important;
+}
+
+.death svg #Path_2279 {
+    fill: #606060 !important;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 840px) {
+    .count .info h2 {
+        font-size: 28px !important;
+    } 
+    
+    .count .info h6 {
+        font-size: 14px !important;
+    } 
+}
+
+section .spec-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 40px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+section .spec-icon svg {
+    font-size: 22px;
+    transition: all 0.25s;
+    color: var(--black);
+}
+
+section .spec-icon:hover svg {
+    color: var(--thirdColor);
+}
+
+@media screen and (min-width: 768px) {
+    section .spec-icon {
+        display: none;
+    }
 }
