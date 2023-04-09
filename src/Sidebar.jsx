@@ -27,11 +27,13 @@ function Sidebar({ isOpen , isWidth }) {
 
     return (
         <>
-            <aside className='p-4' style={{right: 
-                isOpen && !isWidth ? '0px' : 
-                isOpen && isWidth ? '0px' : 
-                !isOpen && isWidth ? '-280px' : 
-                !isOpen && !isWidth ? '0px' : '-280px'}}>
+            <aside className='p-4' 
+                style={{right: 
+                        isOpen && !isWidth ? '0px' : 
+                        isOpen && isWidth ? '0px' : 
+                        !isOpen && isWidth ? '-280px' : 
+                        !isOpen && !isWidth ? '0px' : '-280px'
+                    }}>
                 <div className="logos mb-4 d-flex justify-content-between align-items-center gap-4">
                     <img loading="lazy" src={health} className='first-img' style={{width: '90px' , height: '75px'}} alt="health" />
                     <img loading="lazy" src={da5lya} style={{width: '90px' , height: '75px'}} alt="da5lya" />
