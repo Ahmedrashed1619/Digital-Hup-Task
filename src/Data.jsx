@@ -74,7 +74,7 @@ function Data({ isOpen , handelClick , isWidth }) {
                     <div className="col-xl-4 col-md-6 col-sm-9">
                         <div className="count bg-white rounded-5 px-3 py-5 d-flex justify-content-center align-items-center">
                             <div className="img-count">
-                                <img src={circleGreen} className='ms-2' style={{width: '75px' , height: '75px'}} alt="circle-green" />
+                                <img loading="lazy" src={circleGreen} className='ms-2' style={{width: '75px' , height: '75px'}} alt="circle-green" />
                             </div>
                             <div className="info text-center">
                                 <h2 className='mb-2 text-black fw-bold fs-1' style={{fontWeight: '700'}}>10,918</h2>
@@ -85,7 +85,7 @@ function Data({ isOpen , handelClick , isWidth }) {
                     <div className="col-xl-4 col-md-6 col-sm-9">
                         <div className="count bg-white rounded-5 px-3 py-5 d-flex justify-content-center align-items-center">
                             <div className="img-count">
-                                <img src={circleDark} className='ms-2' style={{width: '75px' , height: '75px'}} alt="circle-green" />
+                                <img loading="lazy" src={circleDark} className='ms-2' style={{width: '75px' , height: '75px'}} alt="circle-green" />
                             </div>
                             <div className="info text-center">
                                 <h2 className='mb-2 text-black fw-bold fs-1' style={{fontWeight: '700'}}>20</h2>
@@ -96,7 +96,7 @@ function Data({ isOpen , handelClick , isWidth }) {
                     <div className="col-xl-4 col-md-6 col-sm-9">
                         <div className="count bg-white rounded-5 px-3 py-5 d-flex justify-content-center align-items-center">
                             <div className="img-count">
-                                <img src={circleOrange} className='ms-2' style={{width: '75px' , height: '75px'}} alt="circle-green" />
+                                <img loading="lazy" src={circleOrange} className='ms-2' style={{width: '75px' , height: '75px'}} alt="circle-green" />
                             </div>
                             <div className="info text-center">
                                 <h2 className='mb-2 text-black fw-bold fs-1' style={{fontWeight: '700'}}>400</h2>
@@ -114,7 +114,7 @@ function Data({ isOpen , handelClick , isWidth }) {
                                 <div className="col-6">
                                     <div className="female">
                                         <h5 className='mb-2 text-black-50' style={{fontWeight: '500'}}>اناث</h5>
-                                        {/* <img src={female} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="female" /> */}
+                                        {/* <img loading="lazy" src={female} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="female" /> */}
                                         <Female className='mb-3' style={{height: '220px'}} />
                                         <h4 className='text-black mb-0' style={{fontWeight: '700'}}>88%</h4>
                                     </div>
@@ -122,7 +122,7 @@ function Data({ isOpen , handelClick , isWidth }) {
                                 <div className="col-6">
                                     <div className="male">
                                         <h5 className='mb-2 text-black-50' style={{fontWeight: '500'}}>ذكور</h5>
-                                        {/* <img src={male} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="male" /> */}
+                                        {/* <img loading="lazy" src={male} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="male" /> */}
                                         <Male className='mb-3' style={{height: '220px'}} />
                                         <h4 className='text-black mb-0' style={{fontWeight: '700'}}>12%</h4>
                                     </div>
@@ -137,7 +137,7 @@ function Data({ isOpen , handelClick , isWidth }) {
                                 <div className="col-6">
                                     <div className="female">
                                         <h5 className='mb-2 text-black-50' style={{fontWeight: '500'}}>اناث</h5>
-                                        {/* <img src={female} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="female" /> */}
+                                        {/* <img loading="lazy" src={female} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="female" /> */}
                                         <Female className='mb-3' style={{height: '220px'}} />
                                         <h4 className='text-black mb-0' style={{fontWeight: '700'}}>12%</h4>
                                     </div>
@@ -145,7 +145,7 @@ function Data({ isOpen , handelClick , isWidth }) {
                                 <div className="col-6">
                                     <div className="male">
                                         <h5 className='mb-2 text-black-50' style={{fontWeight: '500'}}>ذكور</h5>
-                                        {/* <img src={male} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="male" /> */}
+                                        {/* <img loading="lazy" src={male} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="male" /> */}
                                         <Male className='mb-3' style={{height: '220px'}} />
                                         <h4 className='text-black mb-0' style={{fontWeight: '700'}}>88%</h4>
                                     </div>

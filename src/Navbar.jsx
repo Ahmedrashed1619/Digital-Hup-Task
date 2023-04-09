@@ -13,7 +13,7 @@ function Navbar() {
                         <FiSearch />
                         <input type="search" className='form-control' placeholder='إستعلام عن حالة مواليد أو وفاة' />
                     </div>
-                    <img src={gear} alt="gear" />
+                    <img loading="lazy" src={gear} alt="gear" />
                 </div>
             </nav>
         </>
