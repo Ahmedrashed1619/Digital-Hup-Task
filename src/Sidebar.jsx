@@ -35,8 +35,8 @@ function Sidebar({ isOpen , isWidth }) {
                         !isOpen && !isWidth ? '0px' : '-280px'
                     }}>
                 <div className="logos mb-4 d-flex justify-content-between align-items-center gap-4">
-                    <img loading="lazy" src={health} className='first-img' style={{width: '90px' , height: '75px'}} alt="health" />
-                    <img loading="lazy" src={da5lya} style={{width: '90px' , height: '75px'}} alt="da5lya" />
+                    <img loading="lazy" src={health} className='first-img' style={{width: '80px' , height: '75px'}} alt="health" />
+                    <img loading="lazy" src={da5lya} style={{width: '80px' , height: '75px'}} alt="da5lya" />
                 </div>
                 <div className="menu">
                     <div className="accordion" id="accordionExample">

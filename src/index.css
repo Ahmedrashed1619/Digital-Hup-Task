@@ -176,6 +176,7 @@ nav {
 }
 
 nav h2 {
+    font-size: 34px;
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -203,8 +204,9 @@ nav .group-search input {
     background-color: var(--transparent);
     border-radius: 20px;
     padding-right: 50px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border: none;
 }
 
 nav .group-search input::placeholder {
@@ -213,8 +215,9 @@ nav .group-search input::placeholder {
 }
 
 nav img {
-    width: 80px;
+    width: 60px;
     height: 50px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 890px) {
@@ -253,7 +256,7 @@ nav img {
     }
 
     nav img {
-        width: 60px;
+        width: 55px;
         height: 40px;
     }
 }
