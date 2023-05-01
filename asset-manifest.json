@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/Digital-Hup-Task/static/css/main.2bd4275e.css",
-    "main.js": "/Digital-Hup-Task/static/js/main.18865de7.js",
+    "main.css": "/Digital-Hup-Task/static/css/main.fa80a09a.css",
+    "main.js": "/Digital-Hup-Task/static/js/main.3d918b0b.js",
     "static/media/h.jpg": "/Digital-Hup-Task/static/media/h.8792c31dc9e40b3eb3a2.jpg",
     "static/media/OIP.jfif": "/Digital-Hup-Task/static/media/OIP.901478821e01175b7bb6.jfif",
-    "static/media/male.svg": "/Digital-Hup-Task/static/media/male.cedfc7aa382646062eb67895ba84862b.svg",
-    "static/media/female.svg": "/Digital-Hup-Task/static/media/female.9f18c215f471b819f800afb9e8d1a616.svg",
     "index.html": "/Digital-Hup-Task/index.html",
-    "main.2bd4275e.css.map": "/Digital-Hup-Task/static/css/main.2bd4275e.css.map",
-    "main.18865de7.js.map": "/Digital-Hup-Task/static/js/main.18865de7.js.map"
+    "main.fa80a09a.css.map": "/Digital-Hup-Task/static/css/main.fa80a09a.css.map",
+    "main.3d918b0b.js.map": "/Digital-Hup-Task/static/js/main.3d918b0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bd4275e.css",
-    "static/js/main.18865de7.js"
+    "static/css/main.fa80a09a.css",
+    "static/js/main.3d918b0b.js"
   ]
 }
