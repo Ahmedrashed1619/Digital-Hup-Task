@@ -3,7 +3,8 @@
 :root {
     --mainColor: #fff;
     /* --secondColor: #ACACAC; */
-    --secondColor: #888888E0;
+    /* --secondColor: #888888E0; */
+    --secondColor: #7D7E93;
     --thirdColor: green;
     --white: #fff;
     --black: #000;
@@ -488,7 +489,7 @@ nav .group-search input.form-control:focus {
 }
 
 
-.birth svg #Path_2276 {
+/* .birth svg #path_2276 {
     fill: #EB4F9C !important;
 }
 
@@ -502,13 +503,7 @@ nav .group-search input.form-control:focus {
 
 .death svg #Path_2278 {
     fill: var(--secondColor) !important;
-}
-
-.birth .female img {
-    /* filter: invert(56%) sepia(41%) saturate(5552%) hue-rotate(301deg) brightness(95%) contrast(94%); */
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 80%);
-    filter: hue-rotate(240deg);
-}
+} */
 
 
 @media screen and (min-width: 768px) and (max-width: 840px) {

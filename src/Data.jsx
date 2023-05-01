@@ -5,11 +5,9 @@ import $ from 'jquery';
 import circleGreen from './images/green.png';
 import circleDark from './images/gray.png';
 import circleOrange from './images/orange.png';
-// import female from './images/female.svg';
-// import male from './images/male.svg';
-import { ReactComponent as Female } from './images/female.svg';
-import { ReactComponent as Male } from './images/male.svg';
 import { FaBars } from 'react-icons/fa';
+import Female from './Components/Female';
+import Male from './Components/Male';
 
 
 function Data({ isOpen , handelClick , isWidth }) {
@@ -114,17 +112,15 @@ function Data({ isOpen , handelClick , isWidth }) {
                             <div className="row d-flex justify-content-center align-items-center">
                                 <div className="col-6">
                                     <div className="female">
-                                        <h5 className='mb-2 text-black-50' style={{fontWeight: '500'}}>اناث</h5>
-                                        {/* <img loading="lazy" src={female} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="female" /> */}
-                                        <Female className='mb-3' style={{height: '220px'}} />
+                                        <h5 className='mb-3' style={{fontWeight: '500' , color: 'var(--secondColor)'}}>اناث</h5>
+                                        <Female color={'#EB4F9C'} />
                                         <h4 className='text-black mb-0' style={{fontWeight: '700'}}>88%</h4>
                                     </div>
                                 </div>
                                 <div className="col-6">
                                     <div className="male">
-                                        <h5 className='mb-2 text-black-50' style={{fontWeight: '500'}}>ذكور</h5>
-                                        {/* <img loading="lazy" src={male} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="male" /> */}
-                                        <Male className='mb-3' style={{height: '220px'}} />
+                                        <h5 className='mb-3' style={{fontWeight: '500' , color: 'var(--secondColor)'}}>ذكور</h5>
+                                        <Male color={'#3498ff'} />
                                         <h4 className='text-black mb-0' style={{fontWeight: '700'}}>12%</h4>
                                     </div>
                                 </div>
@@ -137,17 +133,15 @@ function Data({ isOpen , handelClick , isWidth }) {
                             <div className="row d-flex justify-content-center align-items-center">
                                 <div className="col-6">
                                     <div className="female">
-                                        <h5 className='mb-2 text-black-50' style={{fontWeight: '500'}}>اناث</h5>
-                                        {/* <img loading="lazy" src={female} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="female" /> */}
-                                        <Female className='mb-3' style={{height: '220px'}} />
+                                        <h5 className='mb-3' style={{fontWeight: '500' , color: 'var(--secondColor)'}}>اناث</h5>
+                                        <Female color={'var(--secondColor)'} />
                                         <h4 className='text-black mb-0' style={{fontWeight: '700'}}>88%</h4>
                                     </div>
                                 </div>
                                 <div className="col-6">
                                     <div className="male">
-                                        <h5 className='mb-2 text-black-50' style={{fontWeight: '500'}}>ذكور</h5>
-                                        {/* <img loading="lazy" src={male} className='d-block mx-auto mb-3 w-100' style={{height: '220px'}} alt="male" /> */}
-                                        <Male className='mb-3' style={{height: '220px'}} />
+                                        <h5 className='mb-3' style={{fontWeight: '500' , color: 'var(--secondColor)'}}>ذكور</h5>
+                                        <Male color={'var(--secondColor)'} />
                                         <h4 className='text-black mb-0' style={{fontWeight: '700'}}>12%</h4>
                                     </div>
                                 </div>
