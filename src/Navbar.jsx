@@ -1,7 +1,6 @@
 import React from 'react';
 import { FiSearch } from 'react-icons/fi';
-import gear from './images/gear.png';
-// import setting from './images/setting.svg';
+import { TbSettings } from 'react-icons/tb';
 
 function Navbar() {
     return (
@@ -13,7 +12,7 @@ function Navbar() {
                         <FiSearch />
                         <input type="search" className='form-control' placeholder='إستعلام عن حالة مواليد أو وفاة' />
                     </div>
-                    <img loading="lazy" src={gear} alt="gear" />
+                    <TbSettings style={{fontWeight: 'bold' , fontSize: '55px' , color: 'var(--secondColor)' , cursor: 'pointer'}} />
                 </div>
             </nav>
         </>
