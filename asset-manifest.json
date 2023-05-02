@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Digital-Hup-Task/static/css/main.fa80a09a.css",
-    "main.js": "/Digital-Hup-Task/static/js/main.3d918b0b.js",
+    "main.css": "/Digital-Hup-Task/static/css/main.855354ef.css",
+    "main.js": "/Digital-Hup-Task/static/js/main.b6909779.js",
     "static/media/h.jpg": "/Digital-Hup-Task/static/media/h.8792c31dc9e40b3eb3a2.jpg",
     "static/media/OIP.jfif": "/Digital-Hup-Task/static/media/OIP.901478821e01175b7bb6.jfif",
     "index.html": "/Digital-Hup-Task/index.html",
-    "main.fa80a09a.css.map": "/Digital-Hup-Task/static/css/main.fa80a09a.css.map",
-    "main.3d918b0b.js.map": "/Digital-Hup-Task/static/js/main.3d918b0b.js.map"
+    "main.855354ef.css.map": "/Digital-Hup-Task/static/css/main.855354ef.css.map",
+    "main.b6909779.js.map": "/Digital-Hup-Task/static/js/main.b6909779.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa80a09a.css",
-    "static/js/main.3d918b0b.js"
+    "static/css/main.855354ef.css",
+    "static/js/main.b6909779.js"
   ]
 }
