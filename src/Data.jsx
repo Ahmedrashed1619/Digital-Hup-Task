@@ -76,7 +76,7 @@ function Data({ isOpen , handelClick , isWidth }) {
                                 <img loading="lazy" src={circleGreen} className='ms-2' style={{width: '75px' , height: '75px'}} alt="circle-green" />
                             </div>
                             <div className="info text-center">
-                                <h2 className='mb-1 text-black fw-bold'>10,918</h2>
+                                <h2 className='mb-2 text-black fw-bold'>10,918</h2>
                                 <h6 className='mb-0 text-muted' style={{fontWeight: '600'}} >عدد المواليد المدخلين</h6>
                             </div>
                         </div>
@@ -84,10 +84,10 @@ function Data({ isOpen , handelClick , isWidth }) {
                     <div className="col-xl-4 col-md-6 col-sm-9">
                         <div className="count bg-white rounded-5 p-4 d-flex justify-content-center align-items-center">
                             <div className="img-count">
-                                <img loading="lazy" src={circleDark} className='ms-2' style={{width: '75px' , height: '75px'}} alt="circle-green" />
+                                <img loading="lazy" src={circleDark} className='ms-2' style={{width: '60px' , height: '60px'}} alt="circle-green" />
                             </div>
                             <div className="info text-center">
-                                <h2 className='mb-1 text-black fw-bold'>20</h2>
+                                <h2 className='mb-2 text-black fw-bold'>20</h2>
                                 <h6 className='mb-0 text-muted' style={{fontWeight: '600'}} >عدد الوفيات المدخلين</h6>
                             </div>
                         </div>
@@ -95,10 +95,10 @@ function Data({ isOpen , handelClick , isWidth }) {
                     <div className="col-xl-4 col-md-6 col-sm-9">
                         <div className="count bg-white rounded-5 p-4 d-flex justify-content-center align-items-center">
                             <div className="img-count">
-                                <img loading="lazy" src={circleOrange} className='ms-2' style={{width: '75px' , height: '75px'}} alt="circle-green" />
+                                <img loading="lazy" src={circleOrange} className='ms-2' style={{width: '60px' , height: '60px'}} alt="circle-green" />
                             </div>
                             <div className="info text-center">
-                                <h2 className='mb-1 text-black fw-bold'>400</h2>
+                                <h2 className='mb-2 text-black fw-bold'>400</h2>
                                 <h6 className='mb-0 text-muted' style={{fontWeight: '600'}} >طلبات تعديل مقدمة</h6>
                             </div>
                         </div>
